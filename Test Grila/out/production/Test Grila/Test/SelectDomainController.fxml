@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="346.0" prefWidth="680.0" stylesheets="@SelectDomain.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.SelectDomainController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutY="27.0" prefHeight="50.0" prefWidth="680.0" text="Alegeti un Domeniu">
+         <font>
+            <Font name="Helvetica" size="38.0" />
+         </font>
+      </Label>
+      <Button layoutX="141.0" layoutY="123.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Capitalele lumii" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="141.0" layoutY="175.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Cunoasterea cuvintelor" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="141.0" layoutY="230.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Personaje Negative" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="374.0" layoutY="124.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Craciun" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="374.0" layoutY="176.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Regatul Unit" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="374.0" layoutY="231.0" mnemonicParsing="false" onAction="#dom" prefHeight="27.0" prefWidth="166.0" style="-fx-background-color: #00f3b6;" text="Resedintele Judetelor" textFill="#323232">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

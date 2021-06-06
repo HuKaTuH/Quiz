@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="460.0" prefWidth="680.0" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="25.0" prefWidth="680.0">
+         <children>
+            <AnchorPane fx:id="mainContainer" layoutY="24.0" prefHeight="420.0" prefWidth="680.0">
+               <children>
+                  <AnchorPane fx:id="parentContainer" prefHeight="420.0" prefWidth="680.0">
+                     <children>
+                        <AnchorPane fx:id="Switch" onMouseClicked="#switchClicked" onMouseEntered="#switchEntered" onMouseExited="#switchExited" prefHeight="420.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="labelSwitch" alignment="CENTER" contentDisplay="CENTER" layoutX="29.0" layoutY="194.0" text="Sign Up" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="Helvetica" size="40.0" />
+                                 </font>
+                              </Label>
+                              <FontAwesomeIcon fx:id="arrowIndicator" fill="WHITE" iconName="ARROW_RIGHT" layoutX="89.0" layoutY="269.0" size="2em" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="titlebartitlebar" onMouseDragged="#titlebarDragged" onMousePressed="#titlebarPressed" prefHeight="24.0" prefWidth="680.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="313.0" layoutY="3.0" text="Test Grilă">
+                     <font>
+                        <Font name="Helvetica" size="14.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" layoutX="548.0" layoutY="2.0" prefHeight="20.0" prefWidth="132.0">
+                     <children>
+                        <FontAwesomeIcon fx:id="minimizeButton" iconName="MINUS" onMouseClicked="#minimizeAction" size="1.2em">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="3.0" right="3.0" top="2.0" />
+                           </HBox.margin>
+                        </FontAwesomeIcon>
+                        <FontAwesomeIcon fx:id="closeButton" iconName="CLOSE" onMouseClicked="#closeAction" size="1.2em">
+                           <HBox.margin>
+                              <Insets bottom="2.0" left="3.0" right="7.0" top="2.0" />
+                           </HBox.margin>
+                        </FontAwesomeIcon>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="257.0" layoutY="444.0" prefHeight="16.0" prefWidth="167.0" text="Created by Dumitru Ciobanu" textFill="#00000076">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="420.0" prefWidth="680.0" stylesheets="@Test.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.TestController">
+   <children>
+      <AnchorPane layoutX="160.0" prefHeight="70.0" prefWidth="520.0">
+         <children>
+            <Label fx:id="header_label" layoutX="50.0" layoutY="21.0" prefHeight="29.0" prefWidth="297.0" style="-fx-background-color: #00f3b6;" text="Bun venit username">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="7.0" right="7.0" />
+               </padding>
+            </Label>
+            <Label layoutX="346.0" layoutY="21.0" prefHeight="29.0" prefWidth="160.0" style="-fx-background-color: #00f3b6;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="7.0" right="7.0" />
+               </padding>
+            </Label>
+            <Separator layoutX="-160.0" layoutY="71.0" prefWidth="680.0" />
+            <FontAwesomeIcon iconName="BOOK" layoutX="14.0" layoutY="46.0" selectionFill="#00f3b6" size="2em" />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="160.0" orientation="VERTICAL" prefHeight="70.0" prefWidth="6.0" />
+      <AnchorPane prefHeight="70.0" prefWidth="160.0">
+         <children>
+            <FontAwesomeIcon iconName="USER" layoutX="4.0" layoutY="44.0" size="2em" />
+            <MenuButton fx:id="username_menu" layoutX="34.0" layoutY="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="119.0" style="-fx-background-color: #00f3b6; -fx-font-family: &quot;Helvetica&quot;;" text="Username">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#logout" text="Log out" />
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+Care este resedinta judetului Alba?
+Alba
+Arad
+Piatra Neamt
+Alba Iulia
+Care este resedinta judetului Bihor?
+Orastie
+Bihor
+Botosani
+Oradea
+Care este resedinta judetului Botosani?
+Iasi
+Orastie
+Piatra Neamt
+Botosani
+Care este resedinta judetului Arges?
+Ploiesti
+Baia Mare
+Deva
+Pitesti
+Care este resedinta judetului Covasna?
+Sinaia
+Brasov
+Botosani
+Sf. Gheorghe
+Care este resedinta judetului Dolj?
+Bailesti
+Botosani
+Tulcea
+Craiova
+Care este resedinta judetului Hunedoara?
+Orastie
+Satu Mare
+Bacau
+Deva
+Care este resedinta judetului Brasov?
+Poiana Brasov
+Craiova
+Sf. Gheorghe
+Brasov
+Care este resedinta judetului Maramures?
+Maramures
+Satu Mare
+Botosani
+Baia Mare
+Care este resedinta judetului Iasi?
+Deva
+Focsani
+Ramnicu Valcea
+Iasi

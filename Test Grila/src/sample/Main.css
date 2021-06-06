@@ -1,0 +1,35 @@
+.root{
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#mainAnchorPane{
+    -fx-background-color: #ffffff;
+}
+
+#titleBar{
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#minimizeButton{
+    -fx-fill:#ffbe00;
+}
+#closeButton{
+    -fx-fill:#ff4c44;
+}
+#minimizeButton:hover{
+    -fx-cursor: hand;
+    -fx-fill:#59595A;
+}
+#closeButton:hover{
+    -fx-cursor: hand;
+    -fx-fill:#59595A;
+}
+
+#Switch{
+    -fx-cursor: hand;
+    -fx-background-color: #00f3b6;
+    /*-fx-background-radius: 0 0 0 10;
+    -fx-border-radius: 0 0 0 10;*/
+}

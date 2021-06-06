@@ -1,0 +1,15 @@
+#loginForm{
+    -fx-font-family: "Helvetica";
+}
+
+
+#loginButton{
+    -fx-background-color: #00f3b6;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+#loginButton:hover{
+    -fx-background-color: #00F3DC;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
